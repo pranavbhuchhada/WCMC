@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PR3</string>
+    <string name="id">17IT011</string>
+    <string name="message">Toast at Every 10 Seconds</string>
+</resources>
