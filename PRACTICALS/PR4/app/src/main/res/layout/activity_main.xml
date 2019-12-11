@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#331E38"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="17IT011"
+        android:textSize="50sp"
+        android:textColor="#F4E8C1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kelvin"
+                android:textColor="#F4E8C1"
+                android:textSize="35sp"
+                />
+
+            <EditText
+                android:id="@+id/kelvin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:inputType="numberDecimal"
+                android:outlineSpotShadowColor="#F4E8C1"
+                android:paddingRight="50dp"
+                android:textAlignment="viewEnd"
+                android:textColor="#F4E8C1"
+                android:textSize="40sp"
+                tools:targetApi="p" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fahrenheit"
+                android:textColor="#F4E8C1"
+                android:textSize="35sp"
+                />
+
+            <EditText
+                android:id="@+id/fahrenheit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:outlineSpotShadowColor="#F4E8C1"
+                android:paddingRight="50dp"
+                android:textAlignment="viewEnd"
+                android:textColor="#F4E8C1"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/celsius"
+                android:textColor="#F4E8C1"
+                android:textSize="35sp"
+                />
+
+            <EditText
+                android:id="@+id/celsius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:outlineSpotShadowColor="#F4E8C1"
+                android:paddingRight="50dp"
+                android:textAlignment="viewEnd"
+                android:textColor="#F4E8C1"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

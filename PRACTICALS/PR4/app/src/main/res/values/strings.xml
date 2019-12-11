@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PR4</string>
+    <string name="ZERO">0</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+</resources>
