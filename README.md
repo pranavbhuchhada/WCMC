@@ -1,7 +1,7 @@
 # WCMC - Wireless Communication and Mobile Computing
 * This repositry contains the lab parcticals performed by Pranav Bhuchhada(17IT011) as a assignment for the subject Wireless Communication and Mobile Computing offered by Charotar University of Science and Technology
 
-Software Required: 1. Android Studio 2. Genymotion Android Emulator
+Software Required: Android Studio
 ---------------------------------------------------------------------------------------------------------------------------------------
 Practical 1- BlankActivity
 ---------------------------------------------------------------------------------------------------------------------------------------
