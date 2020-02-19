@@ -20,7 +20,7 @@
             android:text="17IT011"
             android:textColor="#777"
             android:textAlignment="center"
-            android:textSize="50sp"
+        android:textSize="50sp"
             />
         <ToggleButton
             android:id="@+id/button"
@@ -29,6 +29,17 @@
             android:layout_margin="50dp"
             android:textColor="#000"
             android:background="#FFF"
+            />
+        <EditText
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Timer(in secconds)"
+            android:layout_margin="20dp"
+            android:textSize="30sp"
+            android:background="#FFF"
+            android:gravity="center"
+            android:padding="10dp"
             />
     </LinearLayout>
 
