@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PR10</string>
+<<<<<<< HEAD
+=======
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="view_data">View Data</string>
+>>>>>>> origin/master
 </resources>

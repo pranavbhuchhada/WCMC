@@ -1,20 +1,29 @@
 package com.example.pr10;
 
+<<<<<<< HEAD
 import androidx.annotation.NonNull;
 import androidx.room.Dao;
 import androidx.room.Database;
 import androidx.room.Delete;
+=======
+import androidx.room.Dao;
+import androidx.room.Database;
+>>>>>>> origin/master
 import androidx.room.Entity;
 import androidx.room.Insert;
 import androidx.room.PrimaryKey;
 import androidx.room.Query;
 import androidx.room.RoomDatabase;
+<<<<<<< HEAD
 import androidx.room.Update;
 
+=======
+>>>>>>> origin/master
 import java.util.List;
 
 @Entity(tableName = "contact")
 class Contact {
+<<<<<<< HEAD
     private String firstName;
     private String lastName;
     @PrimaryKey
@@ -38,10 +47,23 @@ class Contact {
     }
 
     @NonNull
+=======
+    @PrimaryKey(autoGenerate = true)
+    private int id;
+    private String name;
+    private String phoneNumber;
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+>>>>>>> origin/master
     public String getPhoneNumber() {
         return phoneNumber;
     }
 
+<<<<<<< HEAD
     public void setPhoneNumber(@NonNull String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
@@ -64,6 +86,27 @@ interface ContactDAO {
     public Contact getContactWithId(String number);
 }
 @Database(entities = {Contact.class}, version = 1)
+=======
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+    public void setId(int id){
+        this.id = id;
+    }
+    public int getId(){
+        return id;
+    }
+}
+
+@Dao
+interface ContactDAO {
+    @Insert
+    void insert(Contact... contacts);
+    @Query("SELECT * FROM contact")
+    List<Contact> getContacts();
+}
+@Database(entities = {Contact.class}, version = 1,exportSchema = false)
+>>>>>>> origin/master
 public abstract class AppDatabase extends RoomDatabase {
     public abstract ContactDAO getContactDAO();
 }

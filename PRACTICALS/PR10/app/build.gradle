@@ -5,7 +5,11 @@ android {
     buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.example.pr10"
+<<<<<<< HEAD
         minSdkVersion 18
+=======
+        minSdkVersion 16
+>>>>>>> origin/master
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
